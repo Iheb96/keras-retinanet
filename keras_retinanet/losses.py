@@ -18,7 +18,7 @@ import keras
 from . import backend
 
 
-def focal(alpha=0.25, gamma=1):
+def focal(alpha=0.75, gamma=2):
     """ Create a functor for computing the focal loss.
 
     Args
